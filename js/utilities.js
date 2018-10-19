@@ -68,7 +68,7 @@ module.exports.parseLocationQuery = function(query){
     return locationQuery;
 }
 
-//send error to output
+//send error to output 
 module.exports.error = function(errorMessage){
 
     alfy.output([{
