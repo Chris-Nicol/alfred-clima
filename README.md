@@ -1,4 +1,4 @@
-<img src='icons/clima-app-black.png' />
+<img style='align:center' src='icons/clima-app-black.png' />
 
 # Overview
 
