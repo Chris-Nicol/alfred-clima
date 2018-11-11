@@ -79,7 +79,7 @@ To get the weather once you've configured a default location, just type the keyw
 
 To get the weather of a specific location, you can merely type the location after the keyword. Providing you've setup Google Maps API then you'll be get all the weathery goodness
 
-<img src="images/usage-search-location"/>
+<img src="images/usage-search-location.gif"/>
 
 ## Search by coordinates
 
@@ -87,7 +87,7 @@ If you don't want to setup Google Maps you can also search using coordinates (xx
 
 <img src="images/finding-coordinates.png" />
 
-<img src="images/usage-search-coordinates.png" /> 
+<img src="images/usage-search-coordinates.gif" /> 
 
 
 # Credits
