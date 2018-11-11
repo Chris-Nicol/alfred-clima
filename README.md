@@ -1,4 +1,4 @@
-<img style='align:center' src='icons/clima-app-black.png' />
+<img style='text-align:center;' src='icons/clima-app-black.png' />
 
 # Overview
 
