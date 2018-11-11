@@ -65,41 +65,41 @@ If you've added a Google Maps API key, adding a location is simple. If you haven
 
 Note: If you want to get coordinates for a specific location, you can search for it in Google Maps and copy the coordinates from the address bar (or use an online tool, there are lots for free).
 
-(images/finding-coordinates.png)
+<img src="images/finding-coordinates.png" />
 
-## Usage
+# Usage
 
-# Default Location 
+## Default Location 
 
 To get the weather once you've configured a default location, just type the keyword (by default `weather`) and sit back to enjoy the fruits of your labour
 
-(images/usage-default-location.gif)
+<img src="images/usage-default-location.gif" />
 
-# Search by location
+## Search by location
 
 To get the weather of a specific location, you can merely type the location after the keyword. Providing you've setup Google Maps API then you'll be get all the weathery goodness
 
-(images/usage-search-location)
+<img src="images/usage-search-location"/>
 
-# Search by coordinates
+## Search by coordinates
 
 If you don't want to setup Google Maps you can also search using coordinates (xxxxx, -yyyyy). You can grab the location coordinates from Google Maps or from a free online tool.
 
-(images/finding-coordinates.png)
+<img src="images/finding-coordinates.png" />
 
-(images/usage-search-coordinates.png)
+<img src="images/usage-search-coordinates.png" /> 
 
 
-## Credits
+# Credits
 
 * Powered by [Dark Sky](https://darksky.net)
 * Icons by [Heeyeun](https://www.behance.net/heeyeun)
 * Created on [Alfy] (https://github.com/sindresorhus/alfy)
 
-## Created By
+# Created By
 
 [Chris Nicol](chrisnicol.me)
 
-## License
+# License
 
 GNU GENERAL PUBLIC LICENSE
