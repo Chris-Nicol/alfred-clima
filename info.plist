@@ -2,14 +2,64 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>name</key>
-	<string>clima</string>
 	<key>bundleid</key>
 	<string>me.chrisnicol.clima</string>
 	<key>category</key>
 	<string>Internet</string>
 	<key>connections</key>
 	<dict>
+		<key>500987F0-E1DB-41E5-9C0F-7DC893D83313</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9B13CDE6-9D4E-4FD6-B055-D307AA82AC1B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5D8D9863-A1B3-4D5F-846D-D7F718F49829</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA89B133-F90B-48CE-BF70-D0AF02786DFE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6B866BA1-FA53-4148-98F3-AE0E5DA16133</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D8F19DFF-0D9C-4248-AFBB-E659820F7AD8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8D1CCFD3-019C-4E9E-8AA2-9FF6F2DDF0BA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D9065460-2E43-42C6-87E4-26EBF5727804</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>90755906-C03E-4F3F-8BA7-6AC8B19C79F8</key>
 		<array>
 			<dict>
@@ -23,37 +73,103 @@
 				<false/>
 			</dict>
 		</array>
+		<key>919CC87A-201F-45F8-A20C-148864A255B4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C0A69358-13D9-4D6D-88EC-8E4D40D0A477</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9B13CDE6-9D4E-4FD6-B055-D307AA82AC1B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA89B133-F90B-48CE-BF70-D0AF02786DFE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D9065460-2E43-42C6-87E4-26EBF5727804</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA89B133-F90B-48CE-BF70-D0AF02786DFE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DA89B133-F90B-48CE-BF70-D0AF02786DFE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>919CC87A-201F-45F8-A20C-148864A255B4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6B866BA1-FA53-4148-98F3-AE0E5DA16133</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E255B781-3573-46C6-9456-AF37CF421FFA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5D8D9863-A1B3-4D5F-846D-D7F718F49829</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
+	<key>createdby</key>
+	<string></string>
+	<key>description</key>
+	<string></string>
 	<key>disabled</key>
 	<false/>
+	<key>name</key>
+	<string>clima</string>
 	<key>objects</key>
 	<array>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>CE11E5D5-7739-407A-8203-F5E8394AF54B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
-				<key>argumenttype</key>
+				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
@@ -77,7 +193,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Clima</string>
+				<string>What's the weather?</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -90,25 +206,338 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://github.com/Chris-Nicol/alfred-clima</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>CE11E5D5-7739-407A-8203-F5E8394AF54B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>w:darkskyapikey</string>
+				<key>subtext</key>
+				<string>Set your Dark Sky API Key for use in Clima Workflow</string>
+				<key>text</key>
+				<string>Weather - Dark Sky API Key</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>E255B781-3573-46C6-9456-AF37CF421FFA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Success</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>C0A69358-13D9-4D6D-88EC-8E4D40D0A477</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>Dark Sky API Token|{query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>5D8D9863-A1B3-4D5F-846D-D7F718F49829</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>success</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>919CC87A-201F-45F8-A20C-148864A255B4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>w:googlemapsapikey</string>
+				<key>subtext</key>
+				<string>Set your Google Maps API Key for use in Clima Workflow</string>
+				<key>text</key>
+				<string>Weather - Google Maps API Key</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>500987F0-E1DB-41E5-9C0F-7DC893D83313</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node ./js/settings.js "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>DA89B133-F90B-48CE-BF70-D0AF02786DFE</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Failed to store token</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>D8F19DFF-0D9C-4248-AFBB-E659820F7AD8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>Google Maps API Token|{query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>9B13CDE6-9D4E-4FD6-B055-D307AA82AC1B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>Error</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>6B866BA1-FA53-4148-98F3-AE0E5DA16133</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>w:defaultlocation</string>
+				<key>subtext</key>
+				<string>Save default location for Clima</string>
+				<key>text</key>
+				<string>Weather - Default location</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>8D1CCFD3-019C-4E9E-8AA2-9FF6F2DDF0BA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>Default Location|{query}</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>D9065460-2E43-42C6-87E4-26EBF5727804</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>CE11E5D5-7739-407A-8203-F5E8394AF54B</key>
+		<key>500987F0-E1DB-41E5-9C0F-7DC893D83313</key>
 		<dict>
 			<key>xpos</key>
-			<integer>150</integer>
+			<integer>200</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>440</integer>
+		</dict>
+		<key>5D8D9863-A1B3-4D5F-846D-D7F718F49829</key>
+		<dict>
+			<key>xpos</key>
+			<integer>400</integer>
+			<key>ypos</key>
+			<integer>300</integer>
+		</dict>
+		<key>6B866BA1-FA53-4148-98F3-AE0E5DA16133</key>
+		<dict>
+			<key>xpos</key>
+			<integer>730</integer>
+			<key>ypos</key>
+			<integer>500</integer>
+		</dict>
+		<key>8D1CCFD3-019C-4E9E-8AA2-9FF6F2DDF0BA</key>
+		<dict>
+			<key>xpos</key>
+			<integer>200</integer>
+			<key>ypos</key>
+			<integer>620</integer>
 		</dict>
 		<key>90755906-C03E-4F3F-8BA7-6AC8B19C79F8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>10</integer>
+			<integer>200</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>80</integer>
+		</dict>
+		<key>919CC87A-201F-45F8-A20C-148864A255B4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>730</integer>
+			<key>ypos</key>
+			<integer>390</integer>
+		</dict>
+		<key>9B13CDE6-9D4E-4FD6-B055-D307AA82AC1B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>400</integer>
+			<key>ypos</key>
+			<integer>470</integer>
+		</dict>
+		<key>C0A69358-13D9-4D6D-88EC-8E4D40D0A477</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>xpos</key>
+			<integer>870</integer>
+			<key>ypos</key>
+			<integer>280</integer>
+		</dict>
+		<key>CE11E5D5-7739-407A-8203-F5E8394AF54B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>490</integer>
+			<key>ypos</key>
+			<integer>80</integer>
+		</dict>
+		<key>D8F19DFF-0D9C-4248-AFBB-E659820F7AD8</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<integer>880</integer>
+			<key>ypos</key>
+			<integer>470</integer>
+		</dict>
+		<key>D9065460-2E43-42C6-87E4-26EBF5727804</key>
+		<dict>
+			<key>xpos</key>
+			<integer>400</integer>
+			<key>ypos</key>
+			<integer>650</integer>
+		</dict>
+		<key>DA89B133-F90B-48CE-BF70-D0AF02786DFE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>530</integer>
+			<key>ypos</key>
+			<integer>440</integer>
+		</dict>
+		<key>E255B781-3573-46C6-9456-AF37CF421FFA</key>
+		<dict>
+			<key>xpos</key>
+			<integer>200</integer>
+			<key>ypos</key>
+			<integer>270</integer>
 		</dict>
 	</dict>
+	<key>webaddress</key>
+	<string></string>
 </dict>
 </plist>

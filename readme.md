@@ -1,4 +1,6 @@
-# alfred-clima
+<p align="center">
+<img style='text-align:center;' src='icons/clima-app-black.png' />
+</p>
 
 # Overview
 

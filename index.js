@@ -9,7 +9,7 @@ const excludes = '?exclude=minutely,hourly&units=auto';
 try {
     
     var mapsAPIKey = alfy.cache.get('Google Maps API Token');
-    var locationQuery;
+    let locationQuery;
 
     if (alfy.input)
     {
@@ -21,7 +21,7 @@ try {
     if (mapsAPIKey){
         //Use google maps to determine location and get weather
         getWeatherThroughGoogleMaps(locationQuery);
-    } else if (locationQuery.type == 'latlng'){
+    } else if (locationQuery.type === 'latlng'){
         //Get weather using only coordinates and setting the location address to "Unknown"
         getWeather(locationQuery.value, 'Unknown');
     } else{
@@ -34,8 +34,8 @@ try {
 
 function getWeather(locationCoordinates, locationAddress){
     
-    var darkSkyToken = utils.getConfiguration('Dark Sky API Token');
-    var url = baseUrl + darkSkyToken + '/' + locationCoordinates + excludes;
+    const darkSkyToken = utils.getConfiguration('Dark Sky API Token');
+    const url = baseUrl + darkSkyToken + '/' + locationCoordinates + excludes;
 
     alfy.fetch(url).then(data => {
         
@@ -69,8 +69,8 @@ function getWeather(locationCoordinates, locationAddress){
 
 function getWeatherThroughGoogleMaps(locationQuery){
 
-    var mapsAPIKey = utils.getConfiguration('Google Maps API Token');
-    var mapsURL = 'https://maps.googleapis.com/maps/api/geocode/json?'+ locationQuery.type + '=' + locationQuery.value + '&key=' + mapsAPIKey;
+    const mapsAPIKey = utils.getConfiguration('Google Maps API Token');
+    const mapsURL = 'https://maps.googleapis.com/maps/api/geocode/json?'+ locationQuery.type + '=' + locationQuery.value + '&key=' + mapsAPIKey;
     
     alfy.fetch(mapsURL).then(data => {
     
@@ -92,8 +92,8 @@ function getWeatherThroughGoogleMaps(locationQuery){
 //returns the current forecast in alfred JSON output
 function getCurrentForecast(current, locationAddress, data){
    
-    var temp = (current.temperature | 0);
-    var units = data.flags.units;
+    const temp = (current.temperature | 0);
+    const units = data.flags.units;
 
     return { 
         title: locationAddress,
@@ -109,7 +109,7 @@ function getCurrentForecast(current, locationAddress, data){
 
 //Overrides Date object to retrieve the name of the day of the week
 (function() {
-    var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+    const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 
     Date.prototype.getDayName = function(){
         return days[this.getDay()];
