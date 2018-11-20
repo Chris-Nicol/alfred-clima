@@ -13,11 +13,11 @@ var message = utils.saveConfiguration(config);
 console.log(message);
 
 function parseInput(input){
-    var splitInput = input.split('|');
+	var splitInput = input.split('|');
     
-    var config = new Object();
-    config.type = splitInput[0];
-    config.value = splitInput[1];
+	var config = new Object();
+	config.type = splitInput[0];
+	config.value = splitInput[1];
 
-    return config;
+	return config;
 }
