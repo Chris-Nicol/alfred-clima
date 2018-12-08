@@ -33,6 +33,10 @@ module.exports.saveConfiguration = function(config){
 	return 'Your ' + config.type + ' has been stored successfully.';
 };
 
+module.exports.resetConfiguration = function(){
+	alfy.cache.clear();
+};
+
 //fetch Token from config by type (DarkSkyToken | GoogleMapsToken)
 module.exports.getConfiguration = function(configType){
 	var configValue = alfy.cache.get(configType);
