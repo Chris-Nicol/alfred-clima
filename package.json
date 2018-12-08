@@ -1,6 +1,6 @@
 {
   "name": "alfred-clima",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Alfred workflow for weather forecast for the next 10 days",
   "license": "MIT",
   "repository": "Chris-Nicol/alfred-clima",
@@ -22,7 +22,9 @@
     "icon.png",
     "info.plist",
     "icons",
-    "js"
+    "js",
+    "E255B781-3573-46C6-9456-AF37CF421FFA.png",
+    "icon.png"
   ],
   "keywords": [
     "alfred",
