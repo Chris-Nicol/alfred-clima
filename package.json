@@ -35,7 +35,7 @@
   "devDependencies": {
     "alfy-test": "^0.3.0",
     "ava": "^0.18.0",
-    "eslint": "^5.9.0",
+    "eslint": "^5.10.0",
     "xo": "^0.17.0"
   }
 }

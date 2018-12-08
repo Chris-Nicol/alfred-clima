@@ -14,6 +14,14 @@ There are a few options for Clima.
 
 [Here's more details on using Clima](#usage)
 
+# Install
+
+```
+$ npm install --global alfred-clima
+```
+
+*Requires Node.js 8+ and the Alfred Powerpack.*
+
 # Requirements
 
 ## DarkSky API Key
