@@ -8,7 +8,7 @@
 	<string>Internet</string>
 	<key>connections</key>
 	<dict>
-		<key>E255B781-3573-46C6-9456-AF37CF421FFA</key>
+		<key>500987F0-E1DB-41E5-9C0F-7DC893D83313</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -47,7 +47,7 @@
 				<false/>
 			</dict>
 		</array>
-		<key>E255B781-3573-46C6-9456-AF37CF421FFA</key>
+		<key>8D1CCFD3-019C-4E9E-8AA2-9FF6F2DDF0BA</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -60,7 +60,7 @@
 				<false/>
 			</dict>
 		</array>
-		<key>E255B781-3573-46C6-9456-AF37CF421FFA</key>
+		<key>90755906-C03E-4F3F-8BA7-6AC8B19C79F8</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -202,7 +202,7 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>E255B781-3573-46C6-9456-AF37CF421FFA</string>
+			<string>90755906-C03E-4F3F-8BA7-6AC8B19C79F8</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -318,7 +318,7 @@
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>E255B781-3573-46C6-9456-AF37CF421FFA</string>
+			<string>500987F0-E1DB-41E5-9C0F-7DC893D83313</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -417,7 +417,7 @@
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>E255B781-3573-46C6-9456-AF37CF421FFA</string>
+			<string>8D1CCFD3-019C-4E9E-8AA2-9FF6F2DDF0BA</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -441,7 +441,7 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>E255B781-3573-46C6-9456-AF37CF421FFA</key>
+		<key>500987F0-E1DB-41E5-9C0F-7DC893D83313</key>
 		<dict>
 			<key>xpos</key>
 			<integer>200</integer>
@@ -462,14 +462,14 @@
 			<key>ypos</key>
 			<integer>500</integer>
 		</dict>
-		<key>E255B781-3573-46C6-9456-AF37CF421FFA</key>
+		<key>8D1CCFD3-019C-4E9E-8AA2-9FF6F2DDF0BA</key>
 		<dict>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
 			<integer>620</integer>
 		</dict>
-		<key>E255B781-3573-46C6-9456-AF37CF421FFA</key>
+		<key>90755906-C03E-4F3F-8BA7-6AC8B19C79F8</key>
 		<dict>
 			<key>xpos</key>
 			<integer>200</integer>
