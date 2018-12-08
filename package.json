@@ -1,7 +1,7 @@
 {
   "name": "alfred-clima",
-  "version": "0.1.1",
-  "description": "Weather forecast for the next 10 days",
+  "version": "0.1.2",
+  "description": "Alfred workflow for weather forecast for the next 10 days",
   "license": "MIT",
   "repository": "Chris-Nicol/alfred-clima",
   "author": {
