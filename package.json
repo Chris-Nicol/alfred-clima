@@ -1,6 +1,6 @@
 {
   "name": "alfred-clima",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "Alfred workflow for weather forecast for the next 7 days",
   "license": "MIT",
   "repository": "Chris-Nicol/alfred-clima",
@@ -39,8 +39,8 @@
   },
   "devDependencies": {
     "alfy-test": "^0.3.0",
-    "ava": "^0.18.0",
-    "eslint": "^5.10.0",
+    "ava": "^2.1.0",
+    "eslint": "^5.16.0",
     "xo": "^0.17.0"
   }
 }
